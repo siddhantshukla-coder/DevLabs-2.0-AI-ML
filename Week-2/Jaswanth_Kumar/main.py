@@ -10,9 +10,9 @@ from google import genai
 #Query = "Give me News on Topic Technology on Date 04-06-2020"
 Query = "Give me News about India on Today"
 
-client = genai.Client(api_key="AIzaSyDzYLnM2AnVp7w2PwtzA0Jin9cnJTiFGF8")
+client = genai.Client(api_key="API_KEY")
 
-API_KEY_NEWS = "2545e60d13574ba088f3f45c36346000"
+API_KEY_NEWS = ""
 
 try:
     response = client.models.generate_content(
