@@ -47,16 +47,6 @@ Uses the Rest Countries API to fetch country details.
 * Requests
 * dotenv
 
-## Project Structure
-
-```text
-.
-├── main.py
-├── .env
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
 
 ## Sample Runs
 
@@ -163,11 +153,4 @@ Based on the current pleasant weather conditions in Tokyo, visiting next week co
 * LLM Tool Execution Workflow
 * Building AI Agents without external frameworks
 
-## Future Improvements
 
-* Multiple tool calls in a single turn
-* Conversation memory
-* Streaming responses
-* Additional travel-related tools
-* Dynamic tool registration
-* Multi-agent workflows
